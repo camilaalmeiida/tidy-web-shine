@@ -509,14 +509,9 @@ function Footer() {
   return (
     <footer className="border-t border-border bg-secondary/40">
       <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-6 py-8 text-sm text-muted-foreground md:flex-row">
-        <div className="flex items-center gap-2">
-          <div
-            className="flex h-7 w-7 items-center justify-center rounded-md text-primary-foreground"
-            style={{ background: "var(--gradient-primary)" }}
-          >
-            <Sparkles className="h-4 w-4" />
-          </div>
-          <span className="font-semibold text-foreground">Inove Max</span>
+        <div className="flex items-center gap-2.5">
+          <img src={logo} alt="Inove Max Facilities" className="h-8 w-auto" />
+          <span className="font-semibold text-foreground">Inove Max Facilities</span>
           <span>© {new Date().getFullYear()}</span>
         </div>
         <p>CNPJ 00.000.000/0001-00 · São Paulo / SP</p>

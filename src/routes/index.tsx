@@ -16,6 +16,11 @@ import {
   MessageCircle,
   Check,
   Star,
+  Shield,
+  TreePine,
+  Wrench,
+  Bug,
+  Package,
 } from "lucide-react";
 import heroImage from "@/assets/hero-cleaning.jpg";
 import detailImage from "@/assets/detail-clean.jpg";
@@ -75,6 +80,31 @@ const services = [
     icon: ShieldCheck,
     title: "Sanitização",
     desc: "Desinfecção hospitalar com produtos certificados pela Anvisa. Relatório técnico ao final.",
+  },
+  {
+    icon: Shield,
+    title: "Portaria & Controle de Acesso",
+    desc: "Porteiros treinados, controle de visitantes e monitoramento 24h presencial ou remoto.",
+  },
+  {
+    icon: TreePine,
+    title: "Jardinagem & Paisagismo",
+    desc: "Manutenção de áreas verdes, poda, plantio e projetos paisagísticos para empresas e condomínios.",
+  },
+  {
+    icon: Wrench,
+    title: "Manutenção Predial",
+    desc: "Elétrica, hidráulica, pintura e pequenos reparos com equipe multidisciplinar sob demanda.",
+  },
+  {
+    icon: Bug,
+    title: "Controle de Pragas",
+    desc: "Dedetização, desratização e descupinização com produtos certificados e garantia técnica.",
+  },
+  {
+    icon: Package,
+    title: "Copa & Suprimentos",
+    desc: "Reposição de materiais de higiene, café, descartáveis e gestão de estoque sem você precisar acompanhar.",
   },
 ];
 
@@ -262,10 +292,10 @@ function Services() {
           Serviços
         </span>
         <h2 className="mt-3 text-3xl font-bold tracking-tight md:text-4xl">
-          Soluções completas de limpeza profissional
+          Facilities completo, um único fornecedor
         </h2>
         <p className="mt-4 text-muted-foreground">
-          Montamos planos sob medida combinando serviços contínuos e sob demanda — você fala com um único supervisor para tudo.
+          Limpeza, portaria, jardinagem, manutenção, controle de pragas e suprimentos — gestão integrada para você focar no seu negócio enquanto cuidamos da operação.
         </p>
       </div>
 
@@ -450,10 +480,13 @@ function Quote() {
                   id="tipo"
                   className="mt-1.5 w-full rounded-lg border border-input bg-background px-3 py-2.5 text-sm outline-none transition-colors focus:border-ring"
                 >
-                  <option>Limpeza de escritório</option>
-                  <option>Condomínio</option>
+                  <option>Limpeza terceirizada</option>
+                  <option>Portaria e controle de acesso</option>
+                  <option>Jardinagem e paisagismo</option>
+                  <option>Manutenção predial</option>
+                  <option>Controle de pragas</option>
                   <option>Pós-obra</option>
-                  <option>Limpeza pesada / sanitização</option>
+                  <option>Facilities completo (multisserviços)</option>
                   <option>Outro</option>
                 </select>
               </div>

@@ -124,14 +124,14 @@ function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-border/60 bg-background/80 backdrop-blur-lg">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-        <a href="#top" className="flex items-center gap-2">
-          <div
-            className="flex h-9 w-9 items-center justify-center rounded-lg text-primary-foreground"
-            style={{ background: "var(--gradient-primary)" }}
-          >
-            <Sparkles className="h-5 w-5" />
-          </div>
-          <span className="text-lg font-semibold tracking-tight">Inove Max</span>
+        <a href="#top" className="flex items-center gap-2.5">
+          <img src={logo} alt="Inove Max Facilities" className="h-10 w-auto" />
+          <span className="text-base font-semibold tracking-tight leading-none">
+            Inove Max
+            <span className="block text-[10px] font-medium uppercase tracking-[0.2em] text-muted-foreground">
+              Facilities
+            </span>
+          </span>
         </a>
         <nav className="hidden items-center gap-8 text-sm text-muted-foreground md:flex">
           <a href="#servicos" className="transition-colors hover:text-foreground">Serviços</a>

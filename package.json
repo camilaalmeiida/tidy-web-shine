@@ -1,6 +1,14 @@
 {
+  "name": "tidy-web-shine",
+  "version": "1.0.0",
+  "private": true,
   "scripts": {
+    "dev": "vite",
     "build": "vite build",
-    "start": "node dist/server/server.js"
+    "preview": "vite preview"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "vite": "^5.0.0"
   }
 }

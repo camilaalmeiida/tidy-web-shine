@@ -70,24 +70,25 @@
   --card-foreground: oklch(0.18 0.04 250);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.18 0.04 250);
-  --primary: oklch(0.42 0.12 235);
+  --primary: oklch(0.25 0.09 260);
   --primary-foreground: oklch(0.99 0.005 230);
-  --primary-glow: oklch(0.62 0.13 215);
-  --secondary: oklch(0.95 0.02 220);
-  --secondary-foreground: oklch(0.22 0.06 245);
-  --muted: oklch(0.96 0.012 225);
-  --muted-foreground: oklch(0.5 0.03 245);
-  --accent: oklch(0.72 0.12 195);
-  --accent-foreground: oklch(0.15 0.04 245);
+  --primary-glow: oklch(0.4 0.12 258);
+  --secondary: oklch(0.95 0.015 250);
+  --secondary-foreground: oklch(0.22 0.08 260);
+  --muted: oklch(0.96 0.01 250);
+  --muted-foreground: oklch(0.5 0.03 255);
+  --accent: oklch(0.78 0.13 85);
+  --accent-foreground: oklch(0.2 0.05 260);
   --destructive: oklch(0.6 0.22 27);
   --destructive-foreground: oklch(0.99 0 0);
-  --border: oklch(0.9 0.015 225);
-  --input: oklch(0.92 0.013 225);
-  --ring: oklch(0.55 0.13 220);
+  --border: oklch(0.9 0.015 250);
+  --input: oklch(0.92 0.013 250);
+  --ring: oklch(0.4 0.1 258);
 
-  --gradient-hero: linear-gradient(135deg, oklch(0.32 0.11 240) 0%, oklch(0.55 0.13 215) 60%, oklch(0.72 0.12 195) 100%);
+  --gradient-hero: linear-gradient(135deg, oklch(0.18 0.07 260) 0%, oklch(0.28 0.1 258) 55%, oklch(0.42 0.12 255) 100%);
   --gradient-primary: linear-gradient(135deg, var(--primary), var(--primary-glow));
-  --gradient-soft: linear-gradient(180deg, oklch(0.98 0.01 225), oklch(0.94 0.025 220));
+  --gradient-gold: linear-gradient(135deg, oklch(0.82 0.13 88), oklch(0.7 0.15 75));
+  --gradient-soft: linear-gradient(180deg, oklch(0.98 0.008 250), oklch(0.94 0.015 250));
 
   --shadow-elegant: 0 20px 50px -20px color-mix(in oklab, var(--primary) 35%, transparent);
   --shadow-glow: 0 0 60px color-mix(in oklab, var(--primary-glow) 40%, transparent);

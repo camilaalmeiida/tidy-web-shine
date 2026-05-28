@@ -19,18 +19,19 @@ import {
 } from "lucide-react";
 import heroImage from "@/assets/hero-cleaning.jpg";
 import detailImage from "@/assets/detail-clean.jpg";
+import logo from "@/assets/logo-inove.png";
 import { Button } from "@/components/ui/button";
 
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "BrilhoMax — Limpeza terceirizada para empresas e condomínios" },
+      { title: "Inove Max Facilities — Limpeza e facilities terceirizados" },
       {
         name: "description",
         content:
           "Empresa de limpeza terceirizada com equipe treinada, produtos sustentáveis e atendimento 24/7. Orçamento gratuito para escritórios, condomínios e pós-obra.",
       },
-      { property: "og:title", content: "BrilhoMax — Limpeza terceirizada" },
+      { property: "og:title", content: "Inove Max — Limpeza terceirizada" },
       {
         property: "og:description",
         content:
@@ -89,7 +90,7 @@ const testimonials = [
     name: "Marina Souza",
     role: "Gerente Predial — Edifício Cidade Jardim",
     quote:
-      "Trocamos três terceirizadas até chegar na BrilhoMax. Em seis meses, zero reclamação dos moradores. Equipe pontual e supervisão presente toda semana.",
+      "Trocamos três terceirizadas até chegar na Inove Max. Em seis meses, zero reclamação dos moradores. Equipe pontual e supervisão presente toda semana.",
   },
   {
     name: "Rafael Lima",
@@ -124,14 +125,14 @@ function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-border/60 bg-background/80 backdrop-blur-lg">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-        <a href="#top" className="flex items-center gap-2">
-          <div
-            className="flex h-9 w-9 items-center justify-center rounded-lg text-primary-foreground"
-            style={{ background: "var(--gradient-primary)" }}
-          >
-            <Sparkles className="h-5 w-5" />
-          </div>
-          <span className="text-lg font-semibold tracking-tight">BrilhoMax</span>
+        <a href="#top" className="flex items-center gap-2.5">
+          <img src={logo} alt="Inove Max Facilities" className="h-10 w-auto" />
+          <span className="text-base font-semibold tracking-tight leading-none">
+            Inove Max
+            <span className="block text-[10px] font-medium uppercase tracking-[0.2em] text-muted-foreground">
+              Facilities
+            </span>
+          </span>
         </a>
         <nav className="hidden items-center gap-8 text-sm text-muted-foreground md:flex">
           <a href="#servicos" className="transition-colors hover:text-foreground">Serviços</a>
@@ -210,7 +211,7 @@ function Hero() {
           >
             <img
               src={heroImage}
-              alt="Equipe BrilhoMax higienizando escritório corporativo"
+              alt="Equipe Inove Max higienizando escritório corporativo"
               width={1600}
               height={1100}
               className="h-full w-full object-cover"
@@ -314,7 +315,7 @@ function WhyUs() {
           >
             <img
               src={detailImage}
-              alt="Detalhe de superfície sendo polida por profissional BrilhoMax"
+              alt="Detalhe de superfície sendo polida por profissional Inove Max"
               width={1200}
               height={900}
               loading="lazy"
@@ -406,7 +407,7 @@ function Quote() {
             </div>
             <div className="flex items-center gap-3">
               <Mail className="h-4 w-4" />
-              <a href="mailto:contato@brilhomax.com.br" className="hover:underline">contato@brilhomax.com.br</a>
+              <a href="mailto:contato@inovemax.com.br" className="hover:underline">contato@inovemax.com.br</a>
             </div>
             <div className="flex items-center gap-3">
               <MapPin className="h-4 w-4" />
@@ -508,14 +509,9 @@ function Footer() {
   return (
     <footer className="border-t border-border bg-secondary/40">
       <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-6 py-8 text-sm text-muted-foreground md:flex-row">
-        <div className="flex items-center gap-2">
-          <div
-            className="flex h-7 w-7 items-center justify-center rounded-md text-primary-foreground"
-            style={{ background: "var(--gradient-primary)" }}
-          >
-            <Sparkles className="h-4 w-4" />
-          </div>
-          <span className="font-semibold text-foreground">BrilhoMax</span>
+        <div className="flex items-center gap-2.5">
+          <img src={logo} alt="Inove Max Facilities" className="h-8 w-auto" />
+          <span className="font-semibold text-foreground">Inove Max Facilities</span>
           <span>© {new Date().getFullYear()}</span>
         </div>
         <p>CNPJ 00.000.000/0001-00 · São Paulo / SP</p>

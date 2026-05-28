@@ -19,6 +19,7 @@ import {
 } from "lucide-react";
 import heroImage from "@/assets/hero-cleaning.jpg";
 import detailImage from "@/assets/detail-clean.jpg";
+import logo from "@/assets/logo-inove.png";
 import { Button } from "@/components/ui/button";
 
 export const Route = createFileRoute("/")({

@@ -433,17 +433,18 @@ function Quote() {
           <div className="mt-8 space-y-4 text-sm">
             <div className="flex items-center gap-3">
               <Phone className="h-4 w-4" />
-              <a href="tel:+5511912345678" className="hover:underline">(11) 91234-5678</a>
+              <a href="tel:+5511947775757" className="hover:underline">(11) 94777-5757</a>
             </div>
             <div className="flex items-center gap-3">
               <Mail className="h-4 w-4" />
-              <a href="mailto:contato@inovemax.com.br" className="hover:underline">contato@inovemax.com.br</a>
+              <a href="mailto:contato@inovemaxservicos.com.br" className="hover:underline">contato@inovemaxservicos.com.br</a>
             </div>
             <div className="flex items-center gap-3">
               <MapPin className="h-4 w-4" />
-              <span>São Paulo e Grande SP</span>
+              <span>Rua Rodolfo Zolli, 157 — Presidente Altino, Osasco/SP</span>
             </div>
           </div>
+
         </div>
 
         <form

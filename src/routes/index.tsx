@@ -292,10 +292,10 @@ function Services() {
           Serviços
         </span>
         <h2 className="mt-3 text-3xl font-bold tracking-tight md:text-4xl">
-          Soluções completas de limpeza profissional
+          Facilities completo, um único fornecedor
         </h2>
         <p className="mt-4 text-muted-foreground">
-          Montamos planos sob medida combinando serviços contínuos e sob demanda — você fala com um único supervisor para tudo.
+          Limpeza, portaria, jardinagem, manutenção, controle de pragas e suprimentos — gestão integrada para você focar no seu negócio enquanto cuidamos da operação.
         </p>
       </div>
 

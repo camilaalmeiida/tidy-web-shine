@@ -16,6 +16,11 @@ import {
   MessageCircle,
   Check,
   Star,
+  ShieldUser,
+  Trees,
+  Wrench,
+  Bug,
+  Package,
 } from "lucide-react";
 import heroImage from "@/assets/hero-cleaning.jpg";
 import detailImage from "@/assets/detail-clean.jpg";

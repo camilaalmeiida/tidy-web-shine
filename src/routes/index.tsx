@@ -25,7 +25,7 @@ import { Button } from "@/components/ui/button";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Inove Max — Limpeza terceirizada para empresas e condomínios" },
+      { title: "Inove Max Facilities — Limpeza e facilities terceirizados" },
       {
         name: "description",
         content:

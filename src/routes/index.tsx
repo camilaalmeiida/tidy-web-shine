@@ -24,13 +24,13 @@ import { Button } from "@/components/ui/button";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "BrilhoMax — Limpeza terceirizada para empresas e condomínios" },
+      { title: "Inove Max — Limpeza terceirizada para empresas e condomínios" },
       {
         name: "description",
         content:
           "Empresa de limpeza terceirizada com equipe treinada, produtos sustentáveis e atendimento 24/7. Orçamento gratuito para escritórios, condomínios e pós-obra.",
       },
-      { property: "og:title", content: "BrilhoMax — Limpeza terceirizada" },
+      { property: "og:title", content: "Inove Max — Limpeza terceirizada" },
       {
         property: "og:description",
         content:
@@ -89,7 +89,7 @@ const testimonials = [
     name: "Marina Souza",
     role: "Gerente Predial — Edifício Cidade Jardim",
     quote:
-      "Trocamos três terceirizadas até chegar na BrilhoMax. Em seis meses, zero reclamação dos moradores. Equipe pontual e supervisão presente toda semana.",
+      "Trocamos três terceirizadas até chegar na Inove Max. Em seis meses, zero reclamação dos moradores. Equipe pontual e supervisão presente toda semana.",
   },
   {
     name: "Rafael Lima",
@@ -131,7 +131,7 @@ function Header() {
           >
             <Sparkles className="h-5 w-5" />
           </div>
-          <span className="text-lg font-semibold tracking-tight">BrilhoMax</span>
+          <span className="text-lg font-semibold tracking-tight">Inove Max</span>
         </a>
         <nav className="hidden items-center gap-8 text-sm text-muted-foreground md:flex">
           <a href="#servicos" className="transition-colors hover:text-foreground">Serviços</a>
@@ -210,7 +210,7 @@ function Hero() {
           >
             <img
               src={heroImage}
-              alt="Equipe BrilhoMax higienizando escritório corporativo"
+              alt="Equipe Inove Max higienizando escritório corporativo"
               width={1600}
               height={1100}
               className="h-full w-full object-cover"
@@ -314,7 +314,7 @@ function WhyUs() {
           >
             <img
               src={detailImage}
-              alt="Detalhe de superfície sendo polida por profissional BrilhoMax"
+              alt="Detalhe de superfície sendo polida por profissional Inove Max"
               width={1200}
               height={900}
               loading="lazy"
@@ -406,7 +406,7 @@ function Quote() {
             </div>
             <div className="flex items-center gap-3">
               <Mail className="h-4 w-4" />
-              <a href="mailto:contato@brilhomax.com.br" className="hover:underline">contato@brilhomax.com.br</a>
+              <a href="mailto:contato@inovemax.com.br" className="hover:underline">contato@inovemax.com.br</a>
             </div>
             <div className="flex items-center gap-3">
               <MapPin className="h-4 w-4" />
@@ -515,7 +515,7 @@ function Footer() {
           >
             <Sparkles className="h-4 w-4" />
           </div>
-          <span className="font-semibold text-foreground">BrilhoMax</span>
+          <span className="font-semibold text-foreground">Inove Max</span>
           <span>© {new Date().getFullYear()}</span>
         </div>
         <p>CNPJ 00.000.000/0001-00 · São Paulo / SP</p>

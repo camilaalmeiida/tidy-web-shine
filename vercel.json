@@ -1,4 +1,12 @@
 {
-  "installCommand": "npm install",
-  "buildCommand": "npm run build"
+      "src": "package.json",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/dist/server/server.js"
+    }
+  ]
 }

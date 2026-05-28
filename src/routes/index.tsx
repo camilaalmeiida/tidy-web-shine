@@ -81,6 +81,31 @@ const services = [
     title: "Sanitização",
     desc: "Desinfecção hospitalar com produtos certificados pela Anvisa. Relatório técnico ao final.",
   },
+  {
+    icon: Shield,
+    title: "Portaria & Controle de Acesso",
+    desc: "Porteiros treinados, controle de visitantes e monitoramento 24h presencial ou remoto.",
+  },
+  {
+    icon: TreePine,
+    title: "Jardinagem & Paisagismo",
+    desc: "Manutenção de áreas verdes, poda, plantio e projetos paisagísticos para empresas e condomínios.",
+  },
+  {
+    icon: Wrench,
+    title: "Manutenção Predial",
+    desc: "Elétrica, hidráulica, pintura e pequenos reparos com equipe multidisciplinar sob demanda.",
+  },
+  {
+    icon: Bug,
+    title: "Controle de Pragas",
+    desc: "Dedetização, desratização e descupinização com produtos certificados e garantia técnica.",
+  },
+  {
+    icon: Package,
+    title: "Copa & Suprimentos",
+    desc: "Reposição de materiais de higiene, café, descartáveis e gestão de estoque sem você precisar acompanhar.",
+  },
 ];
 
 const benefits = [

@@ -480,10 +480,13 @@ function Quote() {
                   id="tipo"
                   className="mt-1.5 w-full rounded-lg border border-input bg-background px-3 py-2.5 text-sm outline-none transition-colors focus:border-ring"
                 >
-                  <option>Limpeza de escritório</option>
-                  <option>Condomínio</option>
+                  <option>Limpeza terceirizada</option>
+                  <option>Portaria e controle de acesso</option>
+                  <option>Jardinagem e paisagismo</option>
+                  <option>Manutenção predial</option>
+                  <option>Controle de pragas</option>
                   <option>Pós-obra</option>
-                  <option>Limpeza pesada / sanitização</option>
+                  <option>Facilities completo (multisserviços)</option>
                   <option>Outro</option>
                 </select>
               </div>

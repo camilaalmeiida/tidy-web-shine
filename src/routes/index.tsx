@@ -168,8 +168,10 @@ function Header() {
           <a href="#servicos" className="transition-colors hover:text-foreground">Serviços</a>
           <a href="#porque" className="transition-colors hover:text-foreground">Por que nós</a>
           <a href="#clientes" className="transition-colors hover:text-foreground">Clientes</a>
+          <Link to="/localizacao" className="transition-colors hover:text-foreground">Localização</Link>
           <a href="#orcamento" className="transition-colors hover:text-foreground">Contato</a>
         </nav>
+
         <Button asChild variant="hero" size="sm">
           <a href="#orcamento">Orçamento grátis</a>
         </Button>

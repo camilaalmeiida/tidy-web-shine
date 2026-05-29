@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { MapPin, Phone, Mail, Clock, ArrowLeft, MessageCircle } from "lucide-react";
+import { MapPin, Phone, Mail, Clock, MessageCircle } from "lucide-react";
 import logo from "@/assets/logo-inove.png";
 import { Button } from "@/components/ui/button";
 
@@ -35,14 +35,19 @@ function Localizacao() {
               </span>
             </span>
           </Link>
-          <Button asChild variant="ghost" size="sm">
-            <Link to="/">
-              <ArrowLeft className="h-4 w-4" />
-              Voltar
-            </Link>
+          <nav className="hidden items-center gap-8 text-sm text-muted-foreground md:flex">
+            <Link to="/" hash="servicos" className="transition-colors hover:text-foreground">Serviços</Link>
+            <Link to="/" hash="porque" className="transition-colors hover:text-foreground">Por que nós</Link>
+            <Link to="/" hash="clientes" className="transition-colors hover:text-foreground">Clientes</Link>
+            <Link to="/localizacao" className="font-medium text-foreground transition-colors">Localização</Link>
+            <Link to="/" hash="orcamento" className="transition-colors hover:text-foreground">Contato</Link>
+          </nav>
+          <Button asChild variant="hero" size="sm">
+            <Link to="/" hash="orcamento">Orçamento grátis</Link>
           </Button>
         </div>
       </header>
+
 
       <section className="relative overflow-hidden">
         <div className="absolute inset-0" style={{ background: "var(--gradient-hero)" }} aria-hidden />

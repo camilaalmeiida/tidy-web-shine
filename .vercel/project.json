@@ -1,0 +1,16 @@
+{
+  "projectId": "prj_5P9TGkMPXFcK7rjaQixOLMI5mmMx",
+  "orgId": "team_m9K6BUce1ossAEwaU208XNHw",
+  "projectName": "n",
+  "settings": {
+    "createdAt": 1780020613561,
+    "framework": "node",
+    "devCommand": null,
+    "installCommand": null,
+    "buildCommand": "npm run build",
+    "outputDirectory": "dist/client",
+    "rootDirectory": null,
+    "directoryListing": false,
+    "nodeVersion": "24.x"
+  }
+}

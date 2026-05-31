@@ -59,6 +59,7 @@
     "zod": "^4.4.3"
   },
   "devDependencies": {
+    "@lovable.dev/vite-tanstack-config": "^2.1.1",
     "@tailwindcss/vite": "^4.3.0",
     "@tanstack/router-plugin": "^1.168.11",
     "@types/node": "^25.9.1",

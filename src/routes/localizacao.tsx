@@ -27,7 +27,7 @@ function Localizacao() {
       <header className="sticky top-0 z-50 border-b border-border/60 bg-background/80 backdrop-blur-lg">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
           <Link to="/" className="flex items-center gap-2.5">
-            <img src={logo} alt="Inove Max Facilities" className="h-10 w-auto" />
+            <img src={logo} alt="Inove Max Facilities" className="h-14 w-auto" />
             <span className="text-base font-semibold tracking-tight leading-none">
               Inove Max
               <span className="block text-[10px] font-medium uppercase tracking-[0.2em] text-muted-foreground">
